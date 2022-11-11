@@ -69,6 +69,8 @@ response = resp.text
 print(response)
 
 if '欠' in response:
+    command = 'netsh wlan disconnect'
+    os.popen(command)
     os.system('pause')
 
 exit(0)
