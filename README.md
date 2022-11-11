@@ -1,6 +1,8 @@
 # HZAU-wireless-AutoLogin
 一键登录华中农业大学校园网
 
+**首次使用请配置config！！！**
+
 ## 配置文件说明:
 
 ```json
