@@ -1,0 +1,6 @@
+{
+  "username": 账号,
+  "password": 密码,
+  "remember-me": 1,
+  "browser": "chrome"
+}
