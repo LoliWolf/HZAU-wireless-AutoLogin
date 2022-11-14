@@ -7,6 +7,7 @@
 
 ```json
 {
+  "wlan": "HZAU_wireless",   校园网名称  注意宿舍区为HZAU-wireless，教学楼为HZAU_wireless
   "username": ,  		校园网账号
   "password": ,  		校园网密码
   "remember-me": 1,  	是否开启记住密码

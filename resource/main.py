@@ -10,6 +10,7 @@ urls = 'http://211.69.143.97/include/auth_action.php'
 # 读用户数据
 with open('config.json', encoding='utf-8') as config:
     jsonConfig = json.load(config)
+    wlan = jsonConfig.get('wlan')
     username = jsonConfig.get('username')
     password = jsonConfig.get('password')
     rememberme = jsonConfig.get('remember-me')
@@ -21,7 +22,7 @@ for proc in psutil.process_iter():
         process.append(proc.pid)
 
 # 连接到华农网络
-command = 'netsh wlan connect name=HZAU-wireless'
+command = 'netsh wlan connect name='+ wlan
 os.popen(command)
 flag = True
 while flag:
